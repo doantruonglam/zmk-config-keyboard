@@ -34,9 +34,9 @@
         layer_raise {
             bindings = <
  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6            &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0      &kp MINUS   &kp EQUAL  &trans
-      &kp TAB           &kp           &kp           &kp           &kp           &kp                     &kp           &kp  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-     &kp CAPS           &kp           &kp           &kp           &kp           &kp                     &kp           &kp               &kp          &kp SLASH         &tog 1
-       &trans           &kp                                                     &kp                                              &bt BT_PRV                            &tog 2  &bt BT_NXT
+      &kp TAB        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                  &kp F6        &kp F7  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+     &kp CAPS        &kp F8        &kp F9       &kp F10       &kp F11       &kp F12                 &kp F13       &kp F14           &kp F15          &kp SLASH            &kp
+       &trans           &kp                                                     &kp                                              &bt BT_PRV                               &kp  &bt BT_NXT
             >;
         };
 
