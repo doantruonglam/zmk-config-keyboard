@@ -39,12 +39,6 @@
 		label = "KSCAN";
 		diode-direction = "col2row";
 
-		row-gpios
-			= <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 0
-			, <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 1
-			, <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 2
-			, <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 3
-			;
 		col-gpios
 			= <&gpio0 29 GPIO_ACTIVE_HIGH> // col 0
 			, <&gpio0 31 GPIO_ACTIVE_HIGH> // col 1
@@ -59,6 +53,13 @@
 			, <&gpio0 13 GPIO_ACTIVE_HIGH> // col 10
 			, <&gpio0 24 GPIO_ACTIVE_HIGH> // col 11
 			;
+
+		row-gpios
+			= <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 0
+			, <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 1
+			, <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 2
+			, <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row 3
+			;
 	};
 
 	leds {
@@ -67,12 +68,6 @@
 			gpios = <&gpio1 10 GPIO_ACTIVE_HIGH>;
 			label = "Blue LED";
 		};
-	};
-
-	ext-power {
-		compatible = "zmk,ext-power-generic";
-		label = "EXT_POWER";
-		control-gpios = <&gpio1 9 GPIO_ACTIVE_LOW>;   /*0.07*/
 	};
 
     left_encoder: encoder_left {
