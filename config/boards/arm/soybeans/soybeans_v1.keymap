@@ -30,6 +30,7 @@
                 , <&macro_tap &kp N>
                 , <&macro_tap &kp N1>
                 , <&macro_tap &kp N1>
+                , <&macro_tap &kp ENTER>
                 ;
         };
     };
