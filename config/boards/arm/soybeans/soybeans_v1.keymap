@@ -34,9 +34,7 @@
                 ;
         };
     };
-};
 
-/ {
 	keymap {
 		compatible = "zmk,keymap";
 

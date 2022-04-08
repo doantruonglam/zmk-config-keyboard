@@ -42,9 +42,7 @@
                 ;
         };
     };
-};
-
-/ {
+    
 	keymap {
 		compatible = "zmk,keymap";
 
